@@ -7,18 +7,16 @@
     <style>
         body{
             height: 98vh;
-            background-image: url('imagens/wallpaper002.jpg');
-            background-position: center center;
+            background: blue url('imagens/wallpaper002.jpg') center center no-repeat  fixed;
+            background-size: cover;
         }
         .container {
-            width: 100%;
             margin: auto;
-            text-align: center;
         }
         .quadrado{
-            display: inline-block;
+            display: block;
             border: 1px solid black;
-            margin: 20px;
+            margin: 0px auto 10px auto;
             width: 300px;
             height: 300px;
         }
@@ -35,6 +33,9 @@
 </head>
 <body>
     <div class="container">
+        <div class="quadrado" id="foto1"></div>
+        <div class="quadrado" id="foto2"></div>
+        <div class="quadrado" id="foto3"></div>
         <div class="quadrado" id="foto1"></div>
         <div class="quadrado" id="foto2"></div>
         <div class="quadrado" id="foto3"></div>
